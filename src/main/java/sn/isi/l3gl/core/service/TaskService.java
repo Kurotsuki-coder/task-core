@@ -1,4 +1,3 @@
-```
 package sn.isi.l3gl.api.controller;
 
 import org.springframework.http.ResponseEntity;
@@ -82,4 +81,3 @@ public class TaskService {
         return taskRepository.countByStatus(Status.DONE);
     }
 }
-```
